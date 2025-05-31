@@ -5,7 +5,10 @@ import { FaJs } from "react-icons/fa6";
 import { IoLogoVue } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { IconsInsta, IconsTS } from "../icons/Icons";
-import { BrandGithub, BrandLinkedin, BrandX } from "@mynaui/icons-react";
+import { TbBrandGithub } from "react-icons/tb";
+import { FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+
 import MyImage from "../MyImage";
 import Animates from "../Animates";
 
@@ -71,8 +74,8 @@ const AboutMe = () => {
                   }
                   className="p-2 rounded-sm border-[2px] border-white relative flex justify-center items-center hover:scale-105 duration-300"
                 >
-                  <BrandGithub size={50} className="text-white relative" />
-                  <BrandGithub
+                  <TbBrandGithub size={50} className="text-white relative" />
+                  <TbBrandGithub
                     size={70}
                     className="text-white absolute blur-[20px] opacity-0 hover:opacity-100 duration-100 "
                   />
@@ -95,8 +98,8 @@ const AboutMe = () => {
                   onClick={() => linkingSites("https://x.com/gihh_666")}
                   className="p-2 rounded-sm border-[2px] border-white relative flex justify-center items-center hover:scale-105 duration-300 "
                 >
-                  <BrandX size={50} className="text-white" />
-                  <BrandX
+                  <FaXTwitter size={50} className="text-white" />
+                  <FaXTwitter
                     size={50}
                     className="text-white absolute blur-[20px] opacity-0 hover:opacity-100 duration-100"
                   />
@@ -107,8 +110,8 @@ const AboutMe = () => {
                   }
                   className="p-2 rounded-sm border-[2px] border-blue-500 relative flex justify-center items-center hover:scale-105 duration-300 "
                 >
-                  <BrandLinkedin size={50} className="text-blue-500" />
-                  <BrandLinkedin
+                  <FaLinkedin size={50} className="text-blue-500" />
+                  <FaLinkedin
                     size={50}
                     className="text-blue-500 absolute blur-[20px] opacity-0 hover:opacity-100 duration-100"
                   />
