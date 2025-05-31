@@ -19,8 +19,8 @@ const AboutMe = () => {
 
   return (
     <div className="h-screen flex justify-center items-center">
-      <div className="flex p-10">
-        <div className="w-8/12 flex flex-col gap-10">
+      <div className="flex  flex-col-reverse lg:flex-row  p-5 lg:p-10 gap-[50px] lg:gap-5">
+        <div className=" w-12/12 lg:w-8/12 flex flex-col gap-10">
           <Animates
             transition={{
               duration: 0.3,
@@ -37,7 +37,7 @@ const AboutMe = () => {
                   WHO I AM
                 </p>
               </div>
-              <p className="text-right tracking-wider mt-4 w-[80%] ml-auto">
+              <p className="text-right tracking-wider mt-4  lg:w-[80%] ml-auto">
                 Hi! I&apos;m Gigih Prasetia, a passionate Front-End Developer
                 with over 4 years of experience building modern, responsive, and
                 user-focused interfaces. I specialize in technologies like
@@ -135,7 +135,7 @@ const AboutMe = () => {
                   TECH STACK
                 </p>
               </div>
-              <div className="flex gap-3 justify-end mt-4">
+              <div className="flex gap-3 flex-wrap justify-end mt-4">
                 <div className="p-2 rounded-sm border-[2px] border-blue-300 relative flex justify-center items-center hover:scale-105 duration-300">
                   <FaReact size={50} className="text-blue-300 relative" />
                   <FaReact
@@ -182,7 +182,7 @@ const AboutMe = () => {
             </div>
           </Animates>
         </div>
-        <div className="w-4/12 flex justify-center items-center">
+        <div className="w-12/12 mt-[500px] lg:mt-[0px] lg:w-4/12 flex justify-center items-center">
           <MyImage />
         </div>
       </div>

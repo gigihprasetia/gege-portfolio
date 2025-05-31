@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div
       ref={containerRef}
-      className="h-screen relative bg-black select-none"
+      className="h-screen overflow-auto relative bg-black select-none"
       style={{ scrollBehavior: "smooth" }}
     >
       <Navs />
